@@ -43,14 +43,14 @@ html {
     font-size: 1rem;
 }
 
-.pills {
-    border-radius: 10%;
-    background-color: #c73642!important;
-}
-
 .top-nav-collapse {
     background-color: #b4b0f2 !important;
+}
 
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #000000 !important;
+    border-radius: 0%;
 }
 
 /* HEADER */
