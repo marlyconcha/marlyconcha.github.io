@@ -1,0 +1,44 @@
+.animation-element {
+    opacity: 0;
+    transition: all 500ms linear;
+    transform: translate3d(0px, 20px,0px);
+    transition-delay: 0.5s;
+    position: relative;
+}
+
+.animation-element.in-view {
+    opacity: 1;
+    transform: translate3d(0px, 0px,0px);
+}
+
+// FIN ANIMACIONES //
+
+.main__title {
+    text-align: center;
+    font-size: x-large;
+}
+
+.main__img {
+    text-align: center;
+    padding: 30px;
+}
+
+.main__text {
+    text-align: left;
+    padding: 0px 30px;
+    line-height: 30px;
+    font-size: $medium;
+
+    h3 {
+        font-weight: 700;
+        font-size: $x-large;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main__title {
+        font-size: xx-large;
+    }
+}

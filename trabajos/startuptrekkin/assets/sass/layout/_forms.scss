@@ -1,0 +1,36 @@
+.precios {
+    background-image: url('../img/bg-price.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 30px;
+
+    &__title {
+        color: $white;
+        text-align: center;
+        font-size: x-large;
+        margin-top: 100px;
+        color: $white;
+    }
+}
+
+.precios__bg {
+    background-color: $onyx;
+}
+
+@media (min-width: 768px) {
+
+    .precios {
+        background-image: url('../img/bg-price.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        height: auto;
+        background-size: 100%;
+        padding-top: 10%;
+
+        &__title {
+            color: $white;
+            text-align: center;
+            font-size: xx-large;
+        }
+    }
+}

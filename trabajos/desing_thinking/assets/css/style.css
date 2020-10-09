@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+::selection {
+    background-color:#FFA300;
+    color: #000000;
+}
+
+a {
+    color: #FFA300;
+    font-weight: 700;
+}
+
+a:hover {
+    color:#298ed1;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+#descripcion {
+    background-color: #deebf3;
+}
+            
+/* NAVBAR */
+
+.navbar{
+    background-color: #00558F!important;
+}
+
+.navbar-brand {
+    width: 86pt;
+}
+
+/* HEADER */
+
+.hero__section {
+    background-image: url(../img/herosection.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    opacity: 100%;
+}
+
+.header__text {
+    font-size: 2.8rem;
+    color: #ffffff;
+    text-align: left;
+    text-shadow: 2px 3px 2px #000000;
+    padding: 1.8rem 4rem 0px 4rem;
+}   
+
+p.header {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 5rem 0px 0px 0px;
+}
+
+p.subtitulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: -0.25rem 0px 1.25rem 1rem;
+}
+
+p.list {
+    font-weight: bold;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 768px) { 
+
+    p.header {
+        margin: 10rem 0px 0px 0px;
+    }
+    
+    p.subtitulo {
+        letter-spacing: 0.1rem;
+    }
+} 
+
+/* MAIN */
+
+.informacion_curso {
+    background-color: #00558F;
+    color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+.descripcion_curso {
+    background-color: #ffffff;
+    padding: 2rem 1rem;
+}
+
+/* CARDS */
+
+.card-title {
+    color: #00558F; 
+    font-weight: 700;
+    text-align: left;
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+/* BUTTONS*/
+
+.btn_inscribete {
+    color: #00558F; 
+    font-weight: 700;
+    text-align: center;
+    width: 20rem;
+    background: #FFA300;
+    border: none; 
+}
+
+.btn_inscribete:hover {
+    color: #ffffff; 
+    background: #298ed1;
+}
+
+.btn_docente {
+    color: #00558F; 
+    background: #FFA300;
+    border: none; 
+}
+
+.btn_docente:hover {
+    color: #ffffff; 
+    background: #298ed1;
+}
+
+.btn_docente:active {
+    color: #ffffff; 
+    background: #298ed1;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #00558F;
+    padding: 60px 0px 30px 0px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 100%;
+}
+
+i {
+    color: #ffffff;
+    width: 80px;
+    height: 53px;
+    margin: 0px 0px 0px 5px;
+}
+
+i.hab {
+    color: #000000;
+    width: 80px;
+    height: 53px;
+    margin: 0px 0px 0px 5px;
+}
+
+.logo__final {
+    width: 150px;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+ul li {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    display: block;
+}
+
+.lista {
+    padding-left: 0;
+}
+
+.rrss {
+    padding-top: 0px;
+} 
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (min-width: 768px) { 
+
+    .rrss {
+        padding-top: 60px;
+    } 
+} 
