@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
 }
 
@@ -10,12 +10,12 @@ body {
 }
 
 a {
-    color: #C85B7F;
+    color: #c161c2;
     font-weight: 700;
 }
 
 a:hover {
-    color: #161614;
+    color: #b2d4fd;
 }
 
 html {
@@ -37,8 +37,19 @@ html {
     font-size: 2rem;
 }
 
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1rem;
+}
+
+.pills {
+    border-radius: 10%;
+    background-color: #c73642!important;
+}
+
 .top-nav-collapse {
-    background-color: #c73642 !important;
+    background-color: #b4b0f2 !important;
 
 }
 
@@ -93,15 +104,26 @@ p.subtitulo2 {
 /* SOBRE MÍ */
 
 .sobremi {
-    background-color: #C85B7F;
+    background-color: #b9f6ee;
     padding: 50px 0px;
     text-align: center;
+}
+
+.sobremi_content {
+    background-color: #aed8fb!important;
+    color: #fff;
+    padding: 30px 50px;
+    text-align: left;
 }
 
 .sobremift {
     height: 190px;
     width: 190px;
     border-radius: 50%;
+}
+
+.bg-polaroid {
+    background-color: #b9f6ee!important;
 }
 
 p.informacion {
@@ -138,7 +160,8 @@ h2 {
 }
 
 h1.tituloex {
-    color: #C85B7F;
+    font-family: 'Montserrat', sans-serif;
+    color: #d48dd5;
     padding: 30px;
 }
 
@@ -154,7 +177,7 @@ h1.tituloex {
 }
 
 h1.titulo {
-    color: #c73642;
+    color: #d48dd5;
     padding: 30px;
     text-align: center;
 }
@@ -168,7 +191,7 @@ h1.titulo {
 }
 
 .card-title {
-    color: #c73642;
+    color: #d48dd5;
     font-weight: 700;
     text-align: left;
 }
@@ -181,24 +204,26 @@ h1.titulo {
 
 
 .btn {
-    background-color: #c73642 !important;
+    background-color: #b4b0f2 !important;
     color: #ffffff !important;
     border-radius: 0% !important;
+    margin-bottom: 20px;
 }
 
 .btn:hover {
-    background-color: #161614 !important;
+    background-color: #bafdef !important;
 }
 
 /* MAS TRABAJOS */
 
 .otrostrabajos {
-    background-color: #c73642;
+    background-color: #d48dd5;
     text-align: center;
     padding: 30px 0px 60px 0px;
 }
 
 h1.titulot {
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     padding: 30px;
 }
@@ -230,13 +255,10 @@ h1.titulot {
 /* FOOTER */
 
 footer {
-    background-color: #c73642;
-    background-image: url(../img/wallcherryred.png);
-    background-size: cover;
+    background-color: #b4b0f2;
     padding: 60px 0px 30px 0px;
     text-align: center;
     color: #ffffff;
-    opacity: 90%;
 }
 
 i {
@@ -375,26 +397,27 @@ p.footer-brand {
 }
 
 .card-polaroid {
-    background-color: #89dcf8;
+    background-color: #fff;
     height: auto;
     width: auto;
     margin: 50px;
-    box-shadow: 15px 15px 0px #c73642;
+    box-shadow: 15px 15px 0px #d48dd5;
 }
-
 
 .card-title {
-    color: #ffffff;
-    font-size: 40px;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
-
 
 .card-text {
     color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
 }
 
 .icon-polaroid {
-    color: #c73642;
+    color: #d48dd5;
     height: 40px;
     width: 40px;
 }
