@@ -203,6 +203,17 @@ h2 {
     letter-spacing: 0.3rem;
 }
 
+.button_mc_content {
+    display: flex; 
+    justify-content: center;
+}
+
+.button_mc {
+    width: 50%;
+    display: flex; 
+    justify-content: center;
+}
+
 /* EXPERIENCIA */
 
 .miexperiencia {
