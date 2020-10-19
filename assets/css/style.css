@@ -124,29 +124,32 @@ p.subtitulo2 {
     p.header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-        font-size: 1rem;
-        margin: 10rem 0px 0px 0px;
+        font-size: 1.6rem;
+        margin: 28rem 0px 0px 0px;
+        padding-left: 10px;
         color: #ffffff;
+        background-color: black;
+        width: 350px;
         letter-spacing: 0.7rem;
     }
 
     p.subtitulo {
         font-family: 'Montserrat', sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #000000;
         background-color: #ffffff;
         letter-spacing: 0.7rem;
-        width: 540px;
+        width: 350px;
         padding: 5px 5px 5px 20px;
     }
 
     p.subtitulo2 {
         font-family: 'Montserrat', sans-serif;
-        font-size: 1rem;
+        font-size: 0.9rem;
         color: #000000;
         background-color: #ffffff;
         letter-spacing: 0.7rem;
-        width: 335px;
+        width: 220px;
         padding: 5px 5px 5px 20px;
     }
 
@@ -528,17 +531,17 @@ p.footer-brand {
     .ml11 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 1rem;
-        margin-top: 1%;
+        font-size: 3rem;
         color: #d48dd5;
     }
 
     .ml11 .text-wrapper {
+        background-color: #ffffff;
         position: relative;
         display: inline-block;
         padding-top: 0.1em;
         padding-right: 0.05em;
-        padding-bottom: 1em;
+        width: 350px;
     }
 
     .ml11 .line {
@@ -549,5 +552,15 @@ p.footer-brand {
         width: 15px;
         background-color: #b4b0f2;
         transform-origin: 0 1%;
+    }
+
+    .ml11 .line1 {
+        top: 0;
+        left: 0;
+    }
+    
+    .ml11 .letter {
+        display: inline-block;
+        line-height: 1em;
     }
 }
