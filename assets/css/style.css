@@ -108,7 +108,7 @@ p.subtitulo2 {
         background-color: #e1a2b7;
         background-image: url(../img/fondo-maruu.png), url(../img/bg.png);
         background-repeat: no-repeat;
-        background-size: initial;
+        background-size: 100%, cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 700px;
