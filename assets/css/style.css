@@ -102,16 +102,17 @@ p.subtitulo2 {
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
 
     .hero__section {
         background-color: #e1a2b7;
         background-image: url(../img/fondo-maruu.png), url(../img/bg.png);
         background-repeat: no-repeat;
         background-size: 100%, cover;
-        background-position: center;
+        background-position: left;
         background-repeat: no-repeat;
         height: 700px;
+        margin-top: -75px;
     }
 
     .header__text {
@@ -124,12 +125,12 @@ p.subtitulo2 {
     p.header {
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin: 28rem 0px 0px 0px;
         padding-left: 10px;
         color: #ffffff;
         background-color: black;
-        width: 350px;
+        width: 325px;
         letter-spacing: 0.7rem;
     }
 
@@ -138,8 +139,8 @@ p.subtitulo2 {
         font-size: 0.9rem;
         color: #000000;
         background-color: #ffffff;
-        letter-spacing: 0.7rem;
-        width: 350px;
+        letter-spacing: 0.6rem;
+        width: 325px;
         padding: 5px 5px 5px 20px;
     }
 
@@ -148,8 +149,8 @@ p.subtitulo2 {
         font-size: 0.9rem;
         color: #000000;
         background-color: #ffffff;
-        letter-spacing: 0.7rem;
-        width: 220px;
+        letter-spacing: 0.6rem;
+        width: 210px;
         padding: 5px 5px 5px 20px;
     }
 
@@ -527,13 +528,14 @@ p.footer-brand {
 
 /* Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
 
     .ml11 {
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
-        font-size: 2.9rem;
+        font-size: 2.7rem;
         color: #ffffff;
+        margin-top: 6px;
     }
 
     .ml11 .text-wrapper {
@@ -542,7 +544,7 @@ p.footer-brand {
         display: inline-block;
         padding-top: 0.1em;
         padding-right: 0.05em;
-        width: 350px;
+        width: 325px;
         padding-left: 10px;
     }
 
