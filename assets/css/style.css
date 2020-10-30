@@ -347,6 +347,18 @@ h1.titulot {
     padding: 30px;
 }
 
+.contacto_sub {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.contacto_content {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
 
 /* CAROUSEL */
 
@@ -423,6 +435,15 @@ footer {
     padding: 60px 0px 30px 0px;
     text-align: center;
     color: #ffffff;
+}
+
+.marca 
+{
+    background-color: #b4b0f2;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1rem;
 }
 
 i {
