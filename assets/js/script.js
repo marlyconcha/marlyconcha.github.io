@@ -14,19 +14,19 @@ anime.timeline({loop: true})
     targets: '.ml11 .line',
     translateX: [0, document.querySelector('.ml11 .letters').getBoundingClientRect().width + 10],
     easing: "easeOutExpo",
-    duration: 900,
-    delay: 200
+    duration: 500,
+    delay: 50
   }).add({
     targets: '.ml11 .letter',
     opacity: [0,1],
     easing: "easeOutExpo",
-    duration: 800,
+    duration: 1000,
     offset: '-=775',
     delay: (el, i) => 34 * (i+1)
   }).add({
     targets: '.ml11',
     opacity: 0,
-    duration: 1000,
+    duration: 500,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 100
   });
